@@ -1,0 +1,17 @@
+body {
+    background-color: powderblue;
+}
+
+h1 {
+    font-family: lucida handwriting;
+    color: red;
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+p {
+    font-family: cursive;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+}
