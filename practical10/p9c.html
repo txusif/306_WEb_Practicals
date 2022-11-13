@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <script src="jquery-3.6.1.min.js"></script>
+
+    <script>
+        $(document).ready(function(){
+            $("#btn").click(function(){
+                $("#p1").toggle();
+            });
+
+            $("#p2").click(function(){
+                $("#p2").hide();
+            });
+
+            $("#btn").click(function(){
+                $("#3").animate({height: "toggle"});
+            });
+        });
+    </script>
+</head>
+
+<body>
+    <button id="btn">Click Here</button>
+    <p id="p1">This is paragraph 1</p>
+    <p id="p2">This is paragraph 2</p>
+    <p id="p3">paragraph 3</p>
+</body>
+
+</html>
